@@ -1,4 +1,14 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
-module.exports = router; 
+const pool = require("../database");
+
+router.get("/add", (req, res) => {
+  res.render("links/add");
+});
+
+router.post("/add",(req,res)=>{
+  res.send('recived')
+})
+
+module.exports = router;
