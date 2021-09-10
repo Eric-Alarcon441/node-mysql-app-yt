@@ -20,7 +20,6 @@ register('es_ES', (number, index, total_sec) => [
 const helpers = {};
 
 helpers.timeago = (timestamp) => {
-    console.log(timestamp);
   return format(timestamp, 'es_ES');
 };
 
