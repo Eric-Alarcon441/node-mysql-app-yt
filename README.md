@@ -1,6 +1,6 @@
 # node-mysql-app-yt
 
-## En este proyecto se aplicaron conocimientos de: 
+### En este proyecto se aplicaron conocimientos de: 
 ## Javascript 
 ## MYSQL 
 ## Node
